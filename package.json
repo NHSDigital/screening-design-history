@@ -1,0 +1,34 @@
+{
+  "name": "nhsuk-design-history",
+  "version": "2.0.0",
+  "description": "A template for a place for documenting NHS.UK service designs",
+  "keywords": [
+    "design-history",
+    "government",
+    "govuk"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf _site",
+    "build": "eleventy",
+    "start": "eleventy --serve --quiet",
+    "preserve": "npm run build",
+    "serve": "http-server ./_site",
+    "test": "standard"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@x-govuk/govuk-eleventy-plugin": "^6.2.1",
+    "http-server": "^14.1.1",
+    "rimraf": "^5.0.5",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "webshot-node": "^0.18.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
