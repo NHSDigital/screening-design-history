@@ -40,6 +40,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/manage-screening-events/*.md')
   })
 
+  eleventyConfig.addCollection('bowel-screening', collection => {
+    return collection.getFilteredByGlob('app/posts/bowel-screening/*.md')
+  })
+
   // Config
   return {
     dataTemplateEngine: 'njk',

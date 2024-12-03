@@ -1,4 +1,4 @@
 {
   "layout": "post",
-  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/"
+  "permalink": "{{ page.date | date: '%Y/%m/' }}/{{ page.filePathStem | replace('posts/', '') }}/"
 }

@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Bowel screening
-description: A record of bowel screening desin work
+description: A record of bowel screening design work
 pagination:
   data: collections.bowel-screening
   reverse: true
