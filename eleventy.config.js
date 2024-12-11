@@ -37,11 +37,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
 
   eleventyConfig.addCollection('explore-team', collection => {
-    return collection.getFilteredByGlob('app/posts/explore-team/*.md')
+    return collection.getFilteredByGlob('app/posts/explore-team/**/*.md')
   })
 
   eleventyConfig.addCollection('manage-screening-events', collection => {
-    return collection.getFilteredByGlob('app/posts/manage-screening-events/*.md')
+    return collection.getFilteredByGlob('app/posts/manage-screening-events/**/*.md')
   })
 
   // Config
