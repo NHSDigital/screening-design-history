@@ -16,6 +16,8 @@ tags:
   - examples
 ---
 
+{{ serviceSlug | log }}
+
 This is an example of a standard design history post – it begins with a preamble about the design and ends with a list of screenshots.
 
 Some real examples are:
