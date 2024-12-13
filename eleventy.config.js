@@ -45,7 +45,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addCollection('bowel-screening', collection => {
-    return collection.getFilteredByGlob('app/posts/bowel-screening/*.md')
+    return collection.getFilteredByGlob('app/posts/bowel-screening/**/*.md')
   })
 
   // Config
