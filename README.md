@@ -4,7 +4,11 @@ A place for services within screening to document their design decisions and res
 
 ## Installation and getting started
 
-Read our guide on how to [set up a design history](https://x-govuk.github.io/govuk-design-history/get-started/).
+1. Clone the repo to a folder on your computer
+2. In your terminal, `cd` to the folder
+3. Run `npm install` to install pre-requisites
+4. Run `npm run start` to build the design history site and serve it
+5. View the site locally at `localhost:8080`
 
 ## Adding a new service
 
@@ -14,8 +18,23 @@ For new services in screening, [follow this guide to get yourself added](https:/
 
 You have two choices for adding a post:
 
-* Add it manually by creating a markdown file for the post and folder for images
+* [Add a post manually]('#add-a-post-manually')
 * [Use the post generation scripts](https://x-govuk.github.io/govuk-design-history/generate-a-page-of-screenshots/)
+
+### Add a post manually
+
+1. Draft your design history post - it's often easiest to do this in Sharepoint
+1. Create a new markdown file in `app/posts/[service-name]/YYYY/MM/[post-name].md`
+  * It's often easier to duplicate an existing post as that will have the headers you need
+3. Edit the post with your content - make sure it has a title, subtitle, and date
+4. If you have images, add them to a folder in `app/images/[service-name]/YYYY/MM/[post-name]/`
+5. Make a PR with your changes and get it reviewed
+
+## Deploying and publishing
+
+Once you have a post you want to publish, make a PR on this repo with your suggested change.
+
+Once it is merged the updated design history will automatically deploy with your post.
 
 ## Support
 
