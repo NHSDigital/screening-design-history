@@ -18,6 +18,8 @@ tags:
 
 This is an example of a standard design history post – it begins with a preamble about the design and ends with a list of screenshots.
 
+Vero test.
+
 Some real examples are:
 
 - [Apply for teacher training: Reasons for withdrawing an application](https://bat-design-history.netlify.app/apply-for-teacher-training/reason-for-withdraw/)
