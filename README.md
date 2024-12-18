@@ -18,14 +18,14 @@ For new services in screening, [follow this guide to get yourself added](https:/
 
 You have two choices for adding a post:
 
-* [Add a post manually]('#add-a-post-manually')
+* [Add a post manually](#add-a-post-manually)
 * [Use the post generation scripts](https://x-govuk.github.io/govuk-design-history/generate-a-page-of-screenshots/)
 
 ### Add a post manually
 
 1. Draft your design history post - it's often easiest to do this in Sharepoint
 1. Create a new markdown file in `app/posts/[service-name]/YYYY/MM/[post-name].md`
-  * It's often easier to duplicate an existing post as that will have the headers you need
+  * * It's often easier to duplicate an existing post as that will have the headers you need
 3. Edit the post with your content - make sure it has a title, subtitle, and date
 4. If you have images, add them to a folder in `app/images/[service-name]/YYYY/MM/[post-name]/`
 5. Make a PR with your changes and get it reviewed
