@@ -40,8 +40,8 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/explore-team/**/*.md')
   })
 
-  eleventyConfig.addCollection('manage-screening-events', collection => {
-    return collection.getFilteredByGlob('app/posts/manage-screening-events/**/*.md')
+  eleventyConfig.addCollection('manage-breast-screening', collection => {
+    return collection.getFilteredByGlob('app/posts/manage-breast-screening/**/*.md')
   })
 
   eleventyConfig.addCollection('bowel-screening', collection => {
