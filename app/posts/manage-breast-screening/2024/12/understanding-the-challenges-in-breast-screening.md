@@ -12,13 +12,13 @@ The National Breast Screening Program is a service which screens women across En
 
 Our multidisciplinary team spent 6 months understanding the current breast screening landscape and its challenges. Multiple opportunities for transformation were identified.
 
-We performed several rounds of user research with breast screening units around England and used these insights to create a Service blueprint of the current-state Breast Screening Service. This demonstrates how the service currently works and where the issues lie.
+We performed several rounds of user research with breast screening units around England and used these insights to create a service blueprint of the current-state Breast Screening Service. This demonstrates how the service currently works and where the issues lie.
 
 ![A thumbnail view of our alpha service blueprint. It gives an idea of the blueprint, but text is intentionally not readable.](manage-breast-screening-alpha-blueprint.png "Our alpha service blueprint")
 
 Our team used this to create a backlog of potential opportunities for transformation.
 
-This backlog was prioritised based on potential value versus technical effort to narrow our focus for Alpha.
+This backlog was prioritised based on potential value versus technical effort to narrow our focus for alpha.
 
 ### Major service challenges
 
@@ -34,7 +34,7 @@ Legacy systems and dated user interfaces do not lend themselves to in-appointmen
 
 ## Alpha
 
-Our Alpha will explore a digital screening journey through a UI prototype, focusing on higher quality data capture and structured workflow.  The prototype will cover the first screening mammogram appointment and the subsequent image reading process (to assess the mammogram images and reach a diagnosis).
+Our alpha will explore a digital screening journey through a UI prototype, focusing on higher quality data capture and structured workflow.  The prototype will cover the first screening mammogram appointment and the subsequent image reading process (to assess the mammogram images and reach a diagnosis).
 
 We are looking to explore the following areas:
 
