@@ -26,11 +26,17 @@ This backlog was prioritised based on potential value versus technical effort to
 
 Multiple systems are used to manage breast screening across the country, which impacts data quality and service consistency. Some of these systems are dated, lacking functionality and modern usability standards. They also do not integrate well with other NHS systems, meaning data has to be manually shared.
 
-#### Paper and manual processes*
+#### Paper and manual processes
 
 Legacy systems and dated user interfaces do not lend themselves to in-appointment use, causing inefficiencies with staff using paper methods to capture information and transferring their notes back into the system later.
 
-**Between 2022-2023, 3.04 million women were invited for breast screening. For each participant invited, a screening form is printed, resulting in millions of paper forms being produced.*
+<!-- **Between 2022-2023, 3.04 million women were invited for breast screening. For each participant invited, a screening form is printed, resulting in millions of paper forms being produced.* -->
+
+
+“In 2022-23, the number of women invited for screening was 3.04 million”
+Source: [Breast Screening Programme, England, 2022-23](https://digital.nhs.uk/data-and-information/publications/statistical/breast-screening-programme/england---2022-23/mainreport2223)
+
+For each participant invited, a screening form is printed, resulting in millions of paper forms being produced.
 
 ## Alpha
 
