@@ -35,10 +35,10 @@ You have two choices for adding a post:
 [View more details on the scripts here.](https://x-govuk.github.io/govuk-design-history/generate-a-page-of-screenshots/)
 
 1. Use a PNG optimiser [like TinyPNG](https://tinypng.com/) to reduce the file size of your images.
-2. Create a folder for your images and them in `app/images/[service-name]/YYYY/MM/[post-name]/`
+2. Create a folder for your images and put them in `app/images/[service-name]/YYYY/MM/[post-name]/`
 3. From the terminal, run `node scripts/generate.js [path]` where `path` is the full path to the folder of images. The easiest way to do this is to type `node scripts/generate.js ` and then drag the folder from Finder on to your terminal to fill in the path.
-4. The script will generate a post linking to each image.
-5. You should check the title text for each image and ammend as needed.
+4. The script will generate a new post linking to each image and place it in `app/posts/[service-name]/YYYY/MM/[post-name].md`.
+5. You should check the title text for each image and amend as needed.
 6. The script will prepend the post filename with the current date but you can delete this if you like.
 
 ## Deploying and publishing
