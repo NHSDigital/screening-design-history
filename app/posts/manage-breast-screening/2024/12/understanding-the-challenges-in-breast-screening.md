@@ -14,7 +14,7 @@ Our multidisciplinary team spent 6 months understanding the current breast scree
 
 We performed several rounds of user research with breast screening units around England and used these insights to create a service blueprint of the current-state Breast Screening Service. This demonstrates how the service currently works and where the issues lie.
 
-![A thumbnail view of our alpha service blueprint. It gives an idea of the blueprint, but text is intentionally not readable.](manage-breast-screening-alpha-blueprint.png "Our alpha service blueprint")
+![A thumbnail view of the current state service blueprint. It gives an idea of the blueprint, but text is intentionally not readable.](manage-breast-screening-alpha-blueprint.png "Current-state screening service blueprint")
 
 Our team used this to create a backlog of potential opportunities for transformation.
 
