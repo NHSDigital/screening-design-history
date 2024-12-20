@@ -1,54 +1,43 @@
-/*
-  Usage:
-  * Put images into `app/images/directory-name`
-  * Name them with 01-, 02- prefixes
-
-  Run:
-  node scripts/generate.js name-of-directory-holding-images
-*/
-
-// Dependencies
 const fs = require('fs')
+const path = require('path')
 const { DateTime } = require('luxon')
 
 // Arguments
-const directoryName = process.argv.slice(-1)[0]
-warnIfNoArguments()
+const inputPath = process.argv.slice(-1)[0]
+if (process.argv.length <= 2) {
+  console.log('No arguments set')
+  console.log('Please provide a path: `node scripts/generate.js path/to/images`')
+  process.exit(1)
+}
 
-const deepestDirectory = directoryName.split('/').pop()
+// Extract the directory name from the full path
+const deepestDirectory = path.basename(inputPath)
 
 let title = deepestDirectory.replace(/-/g, ' ')
 title = title.charAt(0).toUpperCase() + title.slice(1)
 
 const datestamp = DateTime.local().toFormat('yyyy-MM-dd')
 
-const imageDirectory = `app/images/${directoryName}`
-const postDirectory = `app/posts/${directoryName}`.replace('/' + deepestDirectory, '')
+// Ensure we're using relative paths from the project root
+const relativePath = inputPath.replace(/^.*app\/images\//, '')
+const imageDirectory = path.join('app/images', relativePath)
+const postDirectory = path.join('app/posts', path.dirname(relativePath))
 
 const paths = []
 
-// Run
 function start () {
   makeDirectories()
   getExistingImages()
   generatePage()
 }
 
-function warnIfNoArguments (title) {
-  // TODO: Use a better check for an argument
-  if (directoryName.startsWith('/Users')) {
-    console.log('No arguments set')
-    console.log('Please set a title: `node scripts/screenshot.js "Title of page"`')
-  }
-}
-
 function makeDirectories () {
   if (!fs.existsSync(imageDirectory)) {
-    fs.mkdirSync(imageDirectory)
+    fs.mkdirSync(imageDirectory, { recursive: true })
   }
 
   if (!fs.existsSync(postDirectory)) {
-    fs.mkdirSync(postDirectory)
+    fs.mkdirSync(postDirectory, { recursive: true })
   }
 }
 
@@ -61,7 +50,9 @@ function getExistingImages () {
       return
     }
 
-    const title = file.replace(/\.(png|jpg)$/, '').replace(/^\d{2}-/, '').replace(/-/g, ' ')
+    const title = file.replace(/\.(png|jpg)$/, '').replace(/^\d{2}-/, '').replace(/[-_]/g, ' ')
+
+
     const image = {
       src: file,
       title: title.charAt(0).toUpperCase() + title.slice(1)
@@ -73,6 +64,7 @@ function getExistingImages () {
 function generateFrontMatter (items) {
   return `---
   title: ${title}
+  description: A short summary of your post
   date: ${datestamp}
   screenshots:
     ${items}
@@ -88,7 +80,7 @@ function generatePage () {
         src: ${item.src}`
   })
 
-  const filename = `${postDirectory}/${datestamp}-${deepestDirectory}.md`
+  const filename = path.join(postDirectory, `${datestamp}-${deepestDirectory}.md`)
 
   fs.writeFile(filename, generateFrontMatter(items), err => {
     if (err) {
