@@ -13,7 +13,7 @@
       - text: "Clinics checked in"
         src: clinics_checked-in.png
       - text: "Participant view"
-        src: clinics_participants.pn
+        src: clinics_participants.png
       - text: "Participant questionnare - current symptoms"
         src: clinics_participants_questionnaire_current-symptoms.png
       - text: "Participant questionnare - health status"
