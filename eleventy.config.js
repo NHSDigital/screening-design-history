@@ -24,9 +24,13 @@ module.exports = function (eleventyConfig) {
       }
     },
     footer: {
+      contentLicence: false,
       copyright: {
         text: '© NHS England'
       },
+      meta: {
+        text: "All data and personal information shown in prototypes are fictional and for demonstration purposes only."
+      }
     },
     url:
       process.env.GITHUB_ACTIONS &&
