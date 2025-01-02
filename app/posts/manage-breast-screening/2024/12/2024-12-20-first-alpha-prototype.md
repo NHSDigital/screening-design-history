@@ -24,6 +24,9 @@
         src: clinics_participants_questionnaire_summary.png
       - text: "Participant with questionnaire completed"
         src: clinics_participants_questionnaire_completed.png
+  tags:
+    - alpha
+    - prototype
 ---
 
 ## Where to begin

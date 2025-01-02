@@ -2,6 +2,9 @@
 title: Understanding the challenges in breast screening
 description: What we learned in discovery and plan to do in alpha
 date: 2024-12-19
+tags:
+    - alpha
+    - prototype
 ---
 
 ## Problem space

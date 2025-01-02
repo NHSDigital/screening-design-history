@@ -24,13 +24,28 @@ module.exports = function (eleventyConfig) {
       }
     },
     footer: {
-      contentLicence: false,
+      meta: {
+        items: [
+          {
+            href: "https://github.com/NHSDigital/screening-design-history",
+            text: "Github source"
+          },
+          {
+            href: "/sitemap",
+            text: "Sitemap"
+          },
+          {
+            href: "/tags",
+            text: "Tags"
+          }
+        ],
+        html: `<p class="app-footer--text">Made by the NHS with <a class="govuk-footer__link" href="https://github.com/x-govuk/nhsuk-design-history-template">X-GOVUK NHS design history template</a></p>
+        <p class="app-footer--text">All data and personal information shown in prototypes are fictional and for demonstration purposes only</p>`
+      },
       copyright: {
         text: '© NHS England'
       },
-      meta: {
-        text: "All data and personal information shown in prototypes are fictional and for demonstration purposes only."
-      }
+      contentLicence: false
     },
     url:
       process.env.GITHUB_ACTIONS &&

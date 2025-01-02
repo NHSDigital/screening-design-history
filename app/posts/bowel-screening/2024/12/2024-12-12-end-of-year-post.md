@@ -3,10 +3,10 @@ title: Bowel screening end of year update
 description: A high level recap of what has been going on in the bowel screening space for the past month.
 date: 2024-12-12
 tags:
-  - Bowel screening
-  - Notify
-  - Roadmap
-  - Service-blueprint
+  - bowel screening
+  - notify
+  - roadmap
+  - service blueprint
 ---
 
 This is a high level recap of some of the things that have been going on in the bowel screening space for the past month:
