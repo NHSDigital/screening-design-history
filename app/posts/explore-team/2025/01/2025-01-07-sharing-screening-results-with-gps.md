@@ -33,7 +33,10 @@ Looking at sharing screening results with GPs offers us an opportunity to interv
 
 ## Quantifying the problem
 
-A colleague involved in scoping this work has recently told us: “Just over 3 million women a year are invited to participate in Breast Screening. The results of these invitations are currently sent to GP practices as paper-based reports”. Source: [Breast Screening Programme, England, 2022-23](https://digital.nhs.uk/data-and-information/publications/statistical/breast-screening-programme/england---2022-23/mainreport2223)
+A colleague involved in scoping this work has recently told us: 
+> “Just over 3 million women a year are invited to participate in Breast Screening. The results of these invitations are currently sent to GP practices as paper-based reports”. 
+
+Source: [Breast Screening Programme, England, 2022-23](https://digital.nhs.uk/data-and-information/publications/statistical/breast-screening-programme/england---2022-23/mainreport2223)
 
 We will look for more ways to quantify the problem and the potential solution but this is a powerful number. 
 
@@ -73,7 +76,7 @@ In about a week we ran a series of activities with our colleagues to write down:
 
 We then made sense of the input to derive an outcomes-based plan for when we’re back in January. 
 
-The outcomes we will work towards
+![A thumbnail view of the current plan for how we will approach discovery, but text is intentionally not readable.](share-screening-results-with-GPs-kickoff.png "Discovery plan zoomed out")
 
 ## We ended up with 5 outcomes:
 
@@ -82,7 +85,6 @@ The outcomes we will work towards
 * describe and visualise the current experience, including which actors and systems are involved
 * describe and visualise the future experience
 * continue to gain trust by working in the open
-
 
 
 ## What will happen as a result of this work?
