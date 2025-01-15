@@ -4,10 +4,6 @@
   date: 2025-01-15
   screenshots:
     items:
-      # - text: "Dashboard"
-      #   src: dashboard.png
-      # - text: "Clinics today"
-      #   src: clinics_today.png
       - text: "Clinic list"
         src: clinics_list.png
         caption: Clinic list now shows 'special appointments'
