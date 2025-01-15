@@ -4,14 +4,16 @@
   date: 2025-01-15
   screenshots:
     items:
-      - text: "Dashboard"
-        src: dashboard.png
-      - text: "Clinics today"
-        src: clinics_today.png
+      # - text: "Dashboard"
+      #   src: dashboard.png
+      # - text: "Clinics today"
+      #   src: clinics_today.png
       - text: "Clinic list"
         src: clinics_list.png
+        caption: Clinic list now shows 'special appointments'
       - text: "Clinic appointment"
         src: clinics_event.png
+        caption: Appointment view now shows screening history and adds a pre-screening question
       - text: "Medical information"
         src: clinics_events__medical-information.png
       - text: "Medical information complete"
@@ -20,6 +22,7 @@
         src: clinics_events__imaging.png
       - text: "Screening complete"
         src: clinics_events_screening_complete.png
+        caption: Once screening is complete, medical information and images are added as tabs to the appointment
       - text: "Clinics attended not screened reason"
         src: clinics_attended-not-screened-reason.png
 ---
