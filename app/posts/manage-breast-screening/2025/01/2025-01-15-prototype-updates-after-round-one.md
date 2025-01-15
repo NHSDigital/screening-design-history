@@ -1,7 +1,7 @@
 ---
   title: Prototype updates after round one
   description: Building out more of the journey and expanding mammography sections
-  date: 2025-01-14
+  date: 2025-01-15
   screenshots:
     items:
       - text: "Dashboard"
@@ -22,7 +22,6 @@
         src: clinics_events_screening_complete.png
       - text: "Clinics attended not screened reason"
         src: clinics_attended-not-screened-reason.png
-
 ---
 
 ## Expanding our prototype
@@ -31,7 +30,7 @@ Our [first prototype](/manage-breast-screening/2024/12/first-alpha-prototype/) o
 
 We worked on these areas:
 
-- Making the view of a participant within clinic more appointment centric
+- Putting the focus on the appointment rather than the participant
 - Adding screening history
 - Adding historic clinics
 - Adding a ‘workflow’ for mammographers
@@ -42,7 +41,7 @@ We worked on these areas:
 
 In screening, mammographers only have 5 to 8 minutes to screen each woman – this is very little time to assess, take medical history, and take the mammograms. In our first round of usability testing mammographers expressed concern about the potentially lengthy form and their ability to complete it in time.
 
-For most of the medical history questions, we only need detail where the answer is affirmative. If the answer is negative, we need no detail. For example, if there is no history of breast cancer in the woman’s family, we don’t need to ask more about it. But if there is, then we need to capture detail about the history.
+For most of the medical history questions, we only need detail where the answer is affirmative. For example, if there is no history of breast cancer in the woman’s family, we don’t need to ask more about it. But if there is, then we need to capture detail about the history.
 
 Similarly, if a pre-appointment questionnaire was sent to the woman – if she answered no to all questions, ideally there would be no further questions. Only where she answers yes would the mammographer follow up.
 
