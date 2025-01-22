@@ -152,7 +152,7 @@ The ‘Special appointment’ tag is sometimes applied when the participant has 
 
 As this is not part of the appointment status flow, it was not included as part of this review and will be considered separately. We do need to consider it within the colour selection though to ensure it does not conflict or overlap with anything being used elsewhere.
 
-Evolving the status quo 
+## Evolving the status quo 
 
 These labels are being actively tested in research. 
 
