@@ -82,7 +82,7 @@ This was deemed the clearest way to indicate the participant’s physical presen
 
 We went with the most succinct option that could not be confused with another scenario.  
 
-The ‘Completed’ status was a strong option, although it could be applied to various scenarios (an appointment where the participant does not get screened is theoretially ‘complete’).
+The ‘Completed’ status was a strong option, although it could be applied to various situations (an appointment where the participant does not get screened is theoretially ‘complete’).
 
 ### Scenario - mammographer began taking images but could not complete the process 
 
