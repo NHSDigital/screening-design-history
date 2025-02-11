@@ -1,8 +1,8 @@
 ---
 homepage: true
 layout: product
-title: Prevention services design history
-description: A history of the design and research for NHS digital prevention services
+title: Digital prevention services design history
+description: A record of design and research for NHS digital prevention services
 ---
 
 

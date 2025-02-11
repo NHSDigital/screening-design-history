@@ -79,12 +79,16 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/digital-health-check/**/*.md')
   })
 
-  eleventyConfig.addCollection('personalised-prevention-discovery', collection => {
-    return collection.getFilteredByGlob('app/posts/personalised-prevention-discovery/**/*.md')
+  eleventyConfig.addCollection('personalised-prevention-platform', collection => {
+    return collection.getFilteredByGlob('app/posts/personalised-prevention-platform/**/*.md')
   })
 
   eleventyConfig.addCollection('talking-therapies', collection => {
     return collection.getFilteredByGlob('app/posts/talking-therapies/**/*.md')
+  })
+
+  eleventyConfig.addCollection('smoking-cessation', collection => {
+    return collection.getFilteredByGlob('app/posts/smoking-cessation/**/*.md')
   })
 
   // Config

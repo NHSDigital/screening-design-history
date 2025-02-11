@@ -1,7 +1,7 @@
 ---
 layout: collection
-title: Digital health check
-description: Some words go here
+title: Digital NHS health check
+description: A online check‑up of overall health for people aged 40&nbsp;to&nbsp;74.
 pagination:
   data: collections.digital-health-check
   reverse: true
