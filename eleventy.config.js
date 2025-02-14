@@ -75,8 +75,8 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/manage-your-appointments/**/*.md')
   })
 
-  eleventyConfig.addCollection('digital-health-check', collection => {
-    return collection.getFilteredByGlob('app/posts/digital-health-check/**/*.md')
+  eleventyConfig.addCollection('digital-nhs-health-check', collection => {
+    return collection.getFilteredByGlob('app/posts/digital-nhs-health-check/**/*.md')
   })
 
   eleventyConfig.addCollection('personalised-prevention-platform', collection => {
