@@ -1,6 +1,6 @@
-# Design history for NHS.UK screening
+# Digital prevention services design history
 
-A place for services within screening to document their design decisions and research learnings.
+A place for services within digital prevention services to document their design decisions and research learnings.
 
 ## Installation and getting started
 
@@ -12,7 +12,20 @@ A place for services within screening to document their design decisions and res
 
 ## Adding a new service
 
-For new services in screening, [follow this guide to get yourself added](https://x-govuk.github.io/govuk-design-history/divide-a-design-history-into-sections/).
+To add a new service, there is some set up involved.
+
+You will need to create some files and folders based on the name of your service, using lowercase and hypens. For example `your-service-name`.
+
+You’ll need to:
+
+* create a folder for your service within `app/posts/`, for example `app/posts/your-service-name/`
+* create a folder with the same name in `app/images/`, for example `app/images/your-service-name/`
+* create a `your-service-name.js` file within `app/posts/` that adds the eleventyNavigation parent name as the name of your service (copy an existing example)
+* create a Markdown file in `app/posts/`, for example `app/posts/your-service-name.md`. Copy an existing example and update any references to match your service.
+* update `eleventy.config.js` to create a new 'collection' for your service (copy one of the existing examples)
+* update `app/_layouts/_product.njk` to list your new service in the `sections` variable
+
+See [Divide a design history into different sections](https://x-govuk.github.io/govuk-design-history/divide-a-design-history-into-sections/).
 
 ## Adding a new post
 
@@ -49,7 +62,7 @@ Once it is merged the updated design history will automatically deploy with your
 
 ## Support
 
-For issues relating to the NHS Screening design history, [contact Ed Horsford](https://github.com/edwardhorsford).
+For issues relating to the NHS Digtal prevention services design history, contact [Ed Horsford](https://github.com/edwardhorsford), [Frankie Roberto](https://github.com/frankieroberto) or [Ralph Hawkins](https://github.com/ralph-hawkins).
 
 The [GOV.UK design history project](https://x-govuk.github.io/govuk-design-history/) is maintained by a small number of volunteers working across government.
 

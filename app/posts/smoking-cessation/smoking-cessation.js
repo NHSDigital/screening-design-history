@@ -1,0 +1,5 @@
+{
+  "eleventyNavigation": {
+    "parent": "Smoking cessation"
+  }
+}
