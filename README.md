@@ -1,6 +1,6 @@
-# Design history for NHS.UK screening
+# Digital prevention services design history
 
-A place for services within screening to document their design decisions and research learnings.
+A place for services within digital prevention services to document their design decisions and research learnings.
 
 ## Installation and getting started
 
@@ -12,7 +12,7 @@ A place for services within screening to document their design decisions and res
 
 ## Adding a new service
 
-For new services in screening, [follow this guide to get yourself added](https://x-govuk.github.io/govuk-design-history/divide-a-design-history-into-sections/).
+For new services, [follow this guide to get yourself added](https://x-govuk.github.io/govuk-design-history/divide-a-design-history-into-sections/).
 
 ## Adding a new post
 
@@ -49,7 +49,7 @@ Once it is merged the updated design history will automatically deploy with your
 
 ## Support
 
-For issues relating to the NHS Screening design history, [contact Ed Horsford](https://github.com/edwardhorsford).
+For issues relating to the NHS Digtal prevention services design history, contact [Ed Horsford](https://github.com/edwardhorsford), [Frankie Roberto](https://github.com/frankieroberto) or [Ralph Hawkins](https://github.com/ralph-hawkins).
 
 The [GOV.UK design history project](https://x-govuk.github.io/govuk-design-history/) is maintained by a small number of volunteers working across government.
 
