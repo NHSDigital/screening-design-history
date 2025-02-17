@@ -62,7 +62,7 @@ Once it is merged the updated design history will automatically deploy with your
 
 ## Support
 
-For issues relating to the NHS Digtal prevention services design history, contact [Ed Horsford](https://github.com/edwardhorsford), [Frankie Roberto](https://github.com/frankieroberto) or [Ralph Hawkins](https://github.com/ralph-hawkins).
+For issues relating to the NHS Digital prevention services design history, contact [Ed Horsford](https://github.com/edwardhorsford), [Frankie Roberto](https://github.com/frankieroberto) or [Ralph Hawkins](https://github.com/ralph-hawkins).
 
 The [GOV.UK design history project](https://x-govuk.github.io/govuk-design-history/) is maintained by a small number of volunteers working across government.
 
