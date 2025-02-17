@@ -55,6 +55,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
 
+  // Screening collections
   eleventyConfig.addCollection('explore-team', collection => {
     return collection.getFilteredByGlob('app/posts/explore-team/**/*.md')
   })
@@ -67,6 +68,7 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/bowel-screening/**/*.md')
   })
 
+  // Vaccination collections
   eleventyConfig.addCollection('record-a-vaccination', collection => {
     return collection.getFilteredByGlob('app/posts/record-a-vaccination/**/*.md')
   })
@@ -75,6 +77,7 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/manage-your-appointments/**/*.md')
   })
 
+  // Personalised prevention collections
   eleventyConfig.addCollection('digital-nhs-health-check', collection => {
     return collection.getFilteredByGlob('app/posts/digital-nhs-health-check/**/*.md')
   })
