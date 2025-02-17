@@ -32,7 +32,11 @@
     {% elif eleventyNavigation.key == options.homeKey %}
 
       {% set sections = [
-      {title: "Screening", services:["Bowel screening", "Explore team", "Manage breast screening"]}
+        { title: "Screening", services: [
+          "Bowel screening",
+          "Explore team",
+          "Manage breast screening"
+        ] }
       ] %}
 
       {% for section in sections %}
