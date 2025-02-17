@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     },
     url:
       process.env.GITHUB_ACTIONS &&
-      'https://x-govuk.github.io/nhsuk-design-history-template/'
+      'https://nhsdigital.github.io/screening-design-history/'
   })
 
   // Passthrough
