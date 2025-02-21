@@ -3,7 +3,7 @@ title: "Adding a home page showing vaccination totals"
 date: 2025-02-21
 ---
 
-Previously in the alpha we explored the concept of adding a dashboard to let users see key information about their vaccination programme.
+Previously in the alpha we explored the concept of [adding a dashboard](/record-a-vaccination/2023/09/reporting-and-monitoring-beta/) to let users see key information about their vaccination programme.
 
 Since then, we've learnt through research that 1 common user need is to be able to keep a log of the number of vaccinations given each day. 
 
