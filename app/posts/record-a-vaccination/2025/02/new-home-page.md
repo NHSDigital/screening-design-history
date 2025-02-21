@@ -5,7 +5,9 @@ date: 2025-02-21
 
 Previously in the alpha we explored the concept of adding a dashboard to let users see key information about their vaccination programme.
 
-Since then, we have learnt through research that 1 common user need is to be able to keep a log of the number of vaccinations given each day. Sometimes this is done through a paper tally sheet. Alternatively users have used the 'Report' function to download a spreadsheet of all the vaccinations given in particular time range, and then used the number of rows to get a count.
+Since then, we've learnt through research that 1 common user need is to be able to keep a log of the number of vaccinations given each day. 
+
+Sometimes this is done through a paper tally sheet. Alternatively users have used the 'Report' function to download a spreadsheet of all the vaccinations given in particular time range, and then used the number of rows to get a count.
 
 We wanted to make this easier, and to give all users a sense of how many vaccinations they have delivered.
 
