@@ -13,6 +13,8 @@ We wanted to make this easier, and to give all users a sense of how many vaccina
 
 We designed a new 'Home' page which all users see when signing in.
 
+![Screenshot of new home page](new-home-page.png)
+
 The home page contains:
 
 * total vaccinations given today (so far)
