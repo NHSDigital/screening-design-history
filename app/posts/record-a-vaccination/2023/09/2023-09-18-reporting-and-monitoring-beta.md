@@ -6,8 +6,8 @@ date: 2023-09-18
 
 In this sprint, we explored what data and insights users might need from the record a vaccination service — bringing together learnings from:
 
-- [alpha sprint six: reporting vaccinations] (https://record-a-vaccination-design-history.designhistory.app/sprint-six-reporting-vaccinations)
-- [sprint seven: monitoring activity] (https://record-a-vaccination-design-history.designhistory.app/sprint-seven-monitoring-activity) 
+- [alpha sprint six: reporting vaccinations](/record-a-vaccination/2023/06/sprint-six-reporting-vaccinations/)
+- [sprint seven: monitoring activity](/record-a-vaccination/2023/07/sprint-seven-monitoring-activity/) 
 
 In sessions, we explored user’s needs for monitoring and reporting data, and the relationship between the two tasks.
 
@@ -55,7 +55,7 @@ The filter represented subsets of data users would expect to view. However, they
 
 ### Reporting
 
-We iterated our designs following [sprint six: reporting vaccinations](https://record-a-vaccination-design-history.designhistory.app/sprint-six-reporting-vaccinations) to include a progress receipt throughout the reporting journey to help users easily identify what filters and fields they have selected.
+We iterated our designs following [sprint six: reporting vaccinations](/record-a-vaccination/2023/06/sprint-six-reporting-vaccinations/) to include a progress receipt throughout the reporting journey to help users easily identify what filters and fields they have selected.
 
 **Report home screen**
 
