@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
       meta: {
         items: [
           {
-            href: "https://github.com/NHSDigital/screening-design-history",
+            href: "https://github.com/NHSDigital/prevention-services-design-history",
             text: "Github source"
           },
           {
@@ -104,6 +104,6 @@ module.exports = function (eleventyConfig) {
       layouts: '_layouts',
       includes: '_components'
     },
-    pathPrefix: process.env.GITHUB_ACTIONS ? '/screening-design-history/' : '/'
+    pathPrefix: process.env.GITHUB_ACTIONS ? '/prevention-services-design-history/' : '/'
   }
 }
