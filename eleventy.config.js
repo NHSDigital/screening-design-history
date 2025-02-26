@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     },
     url:
       process.env.GITHUB_ACTIONS &&
-      'https://nhsdigital.github.io/prevention-services-design-history/'
+      'https://design-history.prevention-services.nhs.uk/'
   })
 
   // Passthrough
@@ -103,7 +103,6 @@ module.exports = function (eleventyConfig) {
       input: 'app',
       layouts: '_layouts',
       includes: '_components'
-    },
-    pathPrefix: process.env.GITHUB_ACTIONS ? '/prevention-services-design-history/' : '/'
+    }
   }
 }
